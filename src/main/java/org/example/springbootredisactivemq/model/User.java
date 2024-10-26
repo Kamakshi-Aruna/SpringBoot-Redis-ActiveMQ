@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 @Data
 @RedisHash("users")
-public class User implements Serializable {
+public class User{
     @Id
     private String id;
     private String name;
